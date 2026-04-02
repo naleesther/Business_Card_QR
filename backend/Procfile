@@ -1,1 +1,1 @@
-web: gunicorn qr_business_card.wsgi
+web: gunicorn config.wsgi:application
